@@ -1,0 +1,363 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans',sans-serif;
+	box-sizing: border-box;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../images/bg4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: #C07B28;
+	align-items: center;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+nav ul li a{
+     color: black;
+     text-decoration: none;
+     font-weight: bold;
+     text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #DAB181;
+	transition: .4s;
+}
+.btn{
+	background-color: #DAB181;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+}
+.btn:hover{
+	transform: scale(1.2);
+	transition: .4s;
+}
+.content{
+    position: center;
+    padding-top: 10%;
+    transform: translateY(0%);
+}
+
+}
+td {
+	padding: 25px;
+	align: center;
+}
+
+th {
+	background-color: whitesmoke;
+	position: center;
+}
+tr:nth-child(odd) 
+{
+ background-color: #d2c89a;
+}
+
+tr:nth-child(even)
+{
+	background-color: #d2c89a;
+}
+
+tr:hover
+{
+	background-color: #ddd6b3;
+}
+/* bio section */
+#about
+  {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+#pic
+  {
+    display: flex;
+  }
+
+  }
+#intro
+  {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+  }
+#intro h2
+  {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+ /* about section */
+ #about h1{
+	font-family: 'Rubik Moonrocks', cursive;
+}
+.footer_2{
+  float: left;
+  width: 300px;
+  height: 90px;
+  background-color: #77704D;
+  color: black;
+  margin-top: 100px;
+  padding-top: 20px;
+  position: absolute;
+  margin-left: 500px;
+  border-radius: 20px;
+}
+.footer_2 h2{
+  font-size: 20px;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+
+
+}
+.audio_8{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+.headings h1{
+	font-family: 'Allura', cursive;
+	font-size: 52px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.wrapper{
+	margin-top: -40%;
+}
+
+.team{
+	display: flex;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container{
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  margin: 0px auto;
+  
+}
+.container .box
+{
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  background: #000;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+
+}
+.container .box .icon
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: 0.5s;
+  z-index: 1;
+}
+.container .box:hover .icon
+{
+  top: 20px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.container .box .icon .fa
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 80px;
+  transition: 0.5s;
+  color: #fff;
+}
+.container .box:hover .icon .fa
+{
+  font-size: 40px;
+}
+
+.container .box .konten
+{
+  position: absolute;
+  top: 100%;
+  height: calc(100% - 100px);
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.container .box:hover .konten
+{
+  top: 100px;
+  opacity: 1;
+}
+
+.container .box .konten h3
+{
+  margin: 0 0 10px;
+  padding: 0;
+  color: #fff;
+  font-size: 24px;
+}
+.container .box .konten p
+{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.container .box:nth-child(1) .icon
+{
+  background: #aacc80;
+}
+.container .box:nth-child(1)
+{
+  background: #4caf50;
+}
+
+.container .box:nth-child(2) .icon
+{
+  background: #d03852;
+}
+.container .box:nth-child(2)
+{
+  background: #f54967;
+}
+
+.container .box:nth-child(3) .icon
+{
+  background: #979aaa;
+}
+.container .box:nth-child(3)
+{
+  background: #328fa5;
+}
+
+.container img
+{
+  display: flex;
+  height:90px;
+  width: 50;
+  margin-left: 7px;
+}
+
+
+h3{
+  color: black;
+  font-family: arial;
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+}
+#img-gal{
+  height: 360px;
+  padding: 50px;
+}
+
+#img-gal img{
+  height: 360px;
+  width: 360px;
+}
+
+.contact_title{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Ibarra Real Nova', serif;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contact h2{
+  color: black;
+  font-family: arial;
+  font-size: 20px;
+  margin-top: 4%;
+  padding-top: 15px;
+ 
+}
+.center .avatar img{
+  border-radius: 100%;
+  width: 180px;
+  height: 180px;
+  margin-top: 20%;
+  object-fit: cover;
+  object-position: 0 -8px;
+  margin-left: 580px;
+}
+.center{
+  width: 55%;
+  background-color: rgb(0, 0, 0, 0, 7);
+  height: 60vh;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.video{
+  margin-top: 10%;
+}
+.video h1{
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 56px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: black;
+  padding-left: 0;
+}
+.video{
+  margin-top: 10%;
+  border: 5px solid black;
+  color: black;
+  margin: 150px;
+  text-decoration: none;
+  transition: 0.6s ease;
+  width: 80%;
+  padding-bottom: 50px;
+}
+.video:hover{
+  background-color: #d25b5b;
+  color: floralwhite;
+}
